@@ -1,3 +1,4 @@
+// configurando leitura .env
 require('dotenv').config();
 const app = require('./index.js');
 

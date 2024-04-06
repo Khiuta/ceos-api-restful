@@ -1,8 +1,11 @@
+// configuração leitura .env
 require('dotenv').config();
 const express = require('express');
 
+// puxando os dados do database
 require('./src/database/index.js');
 
+// rotas
 const employeeRoutes = require('./src/routes/employeeRoutes.js');
 
 class App 

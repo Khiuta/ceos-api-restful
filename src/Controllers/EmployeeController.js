@@ -2,6 +2,7 @@ const Employee = require("../Models/Employee.js");
 
 class EmployeeController
 {
+	// POST
   async store(req, res)
   {
 		try
@@ -32,6 +33,7 @@ class EmployeeController
 		}	
   }
 
+	// GET:id
   async show(req, res)
   {
 		try
@@ -54,6 +56,7 @@ class EmployeeController
 		}
   }
 
+	// GET
 	async index(req, res)
 	{
 		try
