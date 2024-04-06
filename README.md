@@ -10,7 +10,7 @@ PASSWORD (senha do usuário postgres)
 DB (nome do banco de dados)
 SERVER_PORT (porta para iniciação do servidor)
 
-Agora, para iniciar a aplicação, execute o comando "npm run dev"(sem as aspas)
+Agora, execute o comando "npm run db-create", isso irá criar um banco de dados postgres na sua máquina de acordo com as especificações das variáveis de ambiente. Depois, o comando "npm run db-migrate", isso irá criar as tabelas. Finalmente, o comando "npm run dev" irá  iniciar a aplicação na porta especificada.
 
 As rotas são:
 GET - http://localhost:5000/employee
