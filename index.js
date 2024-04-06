@@ -1,10 +1,9 @@
-import dotenv from 'dotenv';
-import express from 'express';
+require('dotenv').config();
+const express = require('express');
 
-dotenv.config();
-import './database/index.js';
+require('./src/database/index.js');
 
-import employeeRoutes from './routes/employeeRoutes.js';
+const employeeRoutes = require('./src/routes/employeeRoutes.js');
 
 class App 
 {
@@ -27,4 +26,4 @@ class App
   }
 }
 
-export default new App().app;
+module.exports = new App().app;

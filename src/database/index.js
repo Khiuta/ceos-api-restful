@@ -1,6 +1,6 @@
-import Sequelize from 'sequelize';
-import databaseConfig from '../config/config.js';
-import Employee from '../Models/Employee.js';
+const Sequelize = require('sequelize');
+const databaseConfig = require('../../config/config.js');
+const Employee = require('../Models/Employee.js');
 
 const models = [Employee];
 

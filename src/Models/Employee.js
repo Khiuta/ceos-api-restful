@@ -1,6 +1,7 @@
-import Sequelize, { Model } from 'sequelize';
+const Sequelize = require('sequelize'); 
+const { Model } = require('sequelize');
 
-export default class Employee extends Model
+module.exports = class Employee extends Model
 {
   static init(sequelize)
   {

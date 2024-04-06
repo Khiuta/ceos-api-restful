@@ -1,6 +1,4 @@
-import dotenv from 'dotenv';
-
-dotenv.config();
+require('dotenv').config();
 
 const config = {
   dialect: 'postgres',
@@ -22,4 +20,4 @@ const config = {
   timezone: 'America/Sao_Paulo',
 };
 
-export default config;
+module.exports = config;
