@@ -10,3 +10,8 @@ PASSWORD (senha do usuário postgres)
 DB (nome do banco de dados)
 
 Agora, para iniciar a aplicação, execute o comando "npm run dev"(sem as aspas)
+
+As rotas são:
+GET - http://localhost:5000/employee
+GET por id - http://localhost:5000/employee/id
+POST - http://localhost:5000/employee
