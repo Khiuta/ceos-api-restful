@@ -8,6 +8,7 @@ PORT (porta do banco de dados, padrão postgres: 5432)
 USER (usuário postgres)
 PASSWORD (senha do usuário postgres)
 DB (nome do banco de dados)
+SERVER_PORT (porta para iniciação do servidor)
 
 Agora, para iniciar a aplicação, execute o comando "npm run dev"(sem as aspas)
 
