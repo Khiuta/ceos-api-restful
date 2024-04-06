@@ -2,9 +2,6 @@ import dotenv from 'dotenv';
 dotenv.config();
 import app from './index.js';
 
-const port = 5000;
-
-app.listen(port, () => {
-  console.log(`http://localhost:${port}`);
-  console.log(process.env.USER);
+app.listen(process.env.SERVER_PORT, () => {
+  console.log(`http://localhost:${process.env.SERVER_PORT}`);
 });
